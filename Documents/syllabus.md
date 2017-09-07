@@ -11,6 +11,7 @@ The robotics elective will introduce basic electronics and circuit design to stu
 # Course Goals and Objectives
 
 Students will be able to:
+
 * Name, identify, and describe the functions of and diagram how to use electronic devices in a circuit
 * Use a wireless breadboard to assemble circuits to get power from and interact with the robot’s microcontroller.
 * Use the microcontroller’s features while assessing how to use them to accomplish assigned tasks
