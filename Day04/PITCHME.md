@@ -13,9 +13,6 @@ Create a new circuit in Tinkercad to light up 3 LEDs using a 9V battery. This ci
 
 * Review breadboards, LEDs and buttons
 * Series and parallel circuits
-<<<<<<< HEAD
-* Variable resistors (potentiometers and LDRs)
-=======
 * Variable resistors (potentiometers and LDRs)
 ---
 # Series and Parallel Circuits
@@ -38,4 +35,3 @@ Create a new circuit in Tinkercad to light up 3 LEDs using a 9V battery. This ci
 
 * Change resistance in some way (turning a knob, changing light, etc.)
 * Use a voltage divider to produce a change in voltage
->>>>>>> class-dev
