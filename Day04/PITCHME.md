@@ -30,3 +30,8 @@ Create a new circuit in Tinkercad to light up 3 LEDs using a 9V battery. This ci
 
 * Total resistance is 1/(1/r1 + 1/r2 + 1/r3...)
 * Total resistance decreases as number of branches increases
+---
+# Variable Resistors
+
+* Change resistance in some way (turning a knob, changing light, etc.)
+* Use a voltage divider to produce a change in voltage
