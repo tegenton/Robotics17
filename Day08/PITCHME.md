@@ -1558,48 +1558,6 @@ void loop(){
 }
 ```
 ---
-## Analog vs Digital
-
-* Digital is on/off, high/low, or true/false
-* Analog signals can be any value between on and off
----
-## PWM
-
-* Pulse-width modulation
-* Switch on and off **really** fast
-* Used to simulate changing voltage
-* Available only on certain pins, marked by **~**
----
-# Analog Write
-
-```analogWrite(pin, level)```
-The level is a value from 0 (off) to 255 (full on)
-+++
-## Example
-
-```java
-int led = 3;
-
-void setup(){
-    pinMode(led, OUTPUT);
-}
-
-void loop(){
-    analogWrite(led, 0);
-    delay(100);
-    analogWrite(led, 50);
-    delay(100);
-    analogWrite(led, 100);
-    delay(100);
-    analogWrite(led, 150);
-    delay(100);
-    analogWrite(led, 200);
-    delay(100);
-    analogWrite(led,255);
-    delay(100);
-}
-```
----
 # Looping
 
 Let's with a quick and dirty loop
@@ -1627,4 +1585,4 @@ while (x <= 255){
 ---
 # Classwork
 
-Use while loops (or any other looping method of your choice) to cycle through a rainbow on your RGB LED
+Use while loops (or any other looping method of your choice) to cycle smoothly through colors on your RGB LED
