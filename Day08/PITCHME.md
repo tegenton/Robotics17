@@ -1560,7 +1560,7 @@ void loop(){
 ---
 # Looping
 
-Let's with a quick and dirty loop
+Let's start with a quick and dirty loop
 
 * create an integer variable called x with a value of 0
 * use that variable as the brightness for ```analogWrite()```
