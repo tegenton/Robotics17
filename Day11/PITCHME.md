@@ -75,7 +75,7 @@ void loop(){
 
 Demonstrate some alteration in behavior of your LED(s) based on sensor values. Submit as a shared link
 
-Grading:
+### Grading
 
 * 15 points
 * 5 points for correct (and clear) circuit
