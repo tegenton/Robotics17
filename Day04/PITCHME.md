@@ -34,8 +34,4 @@ Create a new circuit in Tinkercad to light up 3 LEDs using a 9V battery. This ci
 # Variable Resistors
 
 * Change resistance in some way (turning a knob, changing light, etc.)
-<<<<<<< HEAD
 * Use a voltage divider to produce a change in voltage
-=======
-* Use a voltage divider to produce a change in voltage
->>>>>>> class-dev
