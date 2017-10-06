@@ -70,6 +70,7 @@ void loop(){
     delay(t);
 }
 ```
+---
 # Classwork
 
 Demonstrate some alteration in behavior of your LED(s) based on sensor values. Submit as a shared link
