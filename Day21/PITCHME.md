@@ -61,4 +61,20 @@ display.show(gradient)
 ```
 
 Try making your own custom image
+---
+# Buttons
+
+The micro:bit has `button_a` and `button_b`. Each can be used with `.is_pressed()`, `.was_pressed()`, and `.get_presses()`
 +++
+```python
+from microbit import *
+
+while True:
+    if button_a.is_pressed():
+        display.show(Image.ARROW_W)
+    elif button_b.is_pressed():
+        display.show(Image.ARROW_E)
+```
+@[3]
+@[4, 6]
+@[5, 7]
