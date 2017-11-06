@@ -90,3 +90,16 @@ while True:
     elif button_b.is_pressed():
         display.scroll(str(button_b.get_presses()))
 ```
+---
+# Radio
+
+try running this
+
+```python
+from microbit import *
+import radio
+
+while True:
+    incoming = radio.receive()
+    display.scroll(incoming)
+```
