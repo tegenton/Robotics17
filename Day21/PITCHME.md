@@ -99,6 +99,8 @@ try running this
 from microbit import *
 import radio
 
+radio.on()
+
 while True:
     incoming = radio.receive()
     display.scroll(incoming)
