@@ -43,3 +43,22 @@ display.show(anim, loop=True, delay=1000)
 ```
 @[5],
 @[3, 6]
++++
+# Custom images
+
+```python
+from microbit import *
+
+gradient = Image(
+    '98765:'
+    '87654:'
+    '76543:'
+    '65432:'
+    '54321'
+)
+
+display.show(gradient)
+```
+
+Try making your own custom image
++++
