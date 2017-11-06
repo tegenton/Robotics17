@@ -19,4 +19,12 @@ while True:
     display.show(Image.HEART)
     sleep(2000)
 ```
-@[1, 3, 4-6]
+@[1]
+@[3]
+@[4-6]
++++
+# List of images
+
+[List of premade images available at the reference](http://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html)
+
+Try changing what image is displayed. Can you display a series of images?
