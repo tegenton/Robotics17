@@ -23,8 +23,23 @@ while True:
 @[3]
 @[4-6]
 +++
-# List of images
+# More images
 
 [List of premade images available at the reference](http://microbit-micropython.readthedocs.io/en/latest/tutorials/images.html)
 
 Try changing what image is displayed. Can you display a series of images?
++++
+# Animations
+
+You can display a list of images as a sequence to create an animation
+
+```python
+from microbit import *
+
+anim = [Image.YES, Image.MEH, Image.NO]
+
+display.show(Image.ALL_CLOCKS, loop=False, delay=400)
+display.show(anim, loop=True, delay=1000)
+```
+@[5],
+@[3, 6]
