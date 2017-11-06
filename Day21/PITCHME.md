@@ -78,3 +78,15 @@ while True:
 @[3]
 @[4, 6]
 @[5, 7]
++++
+Scrolling the number of time the button was pressed since the previous display of that button
+
+```python
+from microbit import *
+
+while True:
+    if button_a.is_pressed():
+        display.scroll(str(button_a.get_presses()))
+    elif button_b.is_pressed():
+        display.scroll(str(button_b.get_presses()))
+```
